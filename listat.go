@@ -1,11 +1,11 @@
 package piscine
 
 func ListAt(l *NodeL, pos int) *NodeL {
-	if l == nil || pos < 1 {
+	if l == nil || pos < 0 {
 		return nil
 	}
 	current := l
-	for i := 1; i < pos; i++ {
+	for i := 0; i < pos; i++ {
 		if current == nil {
 			return nil
 		}
