@@ -17,6 +17,7 @@ func ListPushFront(l *List, data interface{}) {
 	// 2. If the list is empty, this node is both Head and Tail
 	if l.Head == nil {
 		l.Head = newNode
+		
 		l.Tail = newNode
 		return
 	}
