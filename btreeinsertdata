@@ -1,0 +1,3 @@
+#!/bin/sh
+
+GOCACHE=/tmp/go-build go test ./...
